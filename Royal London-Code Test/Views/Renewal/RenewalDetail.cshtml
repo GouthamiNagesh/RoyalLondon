@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "RenewalDetail";
+}
+
+@*@model Royal_London_Code_Test.ViewModel.ClientDetailViewModel*@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+
+</head>
+<body>
+    @using (Html.BeginForm("GenerateLetter", "Renewal", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+        if (@ViewBag.ErrorValidationMessage != null && @ViewBag.ErrorValidationMessage != string.Empty)
+        {
+            <br />
+            <div class="form-group">
+                <span style="font-size:20px; color:red;">Cannot Generate the Renewal Better. Please find the below error as,</span>
+                <br />
+                @ViewBag.ErrorValidationMessage
+            </div>
+        }
+
+        <div class="form-group" style="padding-top: 20px;">
+            <input type="submit" value="Generate Renewal Letter" class="btn btn-primary" />
+        </div>
+    }
+</body>
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/jqueryval")
+</html>

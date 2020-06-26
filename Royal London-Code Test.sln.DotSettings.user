@@ -1,0 +1,19 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=38ccec93_002Dc3b6_002D4c8c_002Db017_002D1aea9f13e8ff/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldGetFilePath" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::144C3519-A93A-4919-AD2F-EECD48CB828E::.NETFramework,Version=v4.5.2::Royal_London_Code_Test.Tests.Models.FileManagerTest.ShouldGetFilePath&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ce506791_002D9f36_002D4b9f_002D89e5_002D948c77ed4a5f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ShouldCalculatePremium" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::144C3519-A93A-4919-AD2F-EECD48CB828E::.NETFramework,Version=v4.5.2::Royal_London_Code_Test.Tests.PremiumCalculatorTest.ShouldCalculatePremium&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f0c96fe9_002D264d_002D4838_002D906b_002D5a6ae71cebf7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckValidateFile" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::144C3519-A93A-4919-AD2F-EECD48CB828E::.NETFramework,Version=v4.5.2::Royal_London_Code_Test.Tests.Models.DocumentGeneratorTest.ShouldGenerateLetter&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::144C3519-A93A-4919-AD2F-EECD48CB828E::.NETFramework,Version=v4.5.2::Royal_London_Code_Test.Tests.Models.PremiumCalculatorTest.ShouldCalculatePremium&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::144C3519-A93A-4919-AD2F-EECD48CB828E::.NETFramework,Version=v4.5.2::Royal_London_Code_Test.Tests.Models.FileManagerTest.ShouldValidateFile&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::144C3519-A93A-4919-AD2F-EECD48CB828E::.NETFramework,Version=v4.5.2::Royal_London_Code_Test.Tests.Models.FileManagerTest.ShouldGetFilePath&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,0 +1,18 @@
+﻿@model string
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="form-group">
+        <span>Letter generated in the following path,</span>
+        <p style="font-weight:bold">@Model</p>
+    </div>
+    <div>
+        @Html.ActionLink("Back to Details", "RenewalDetail")
+    </div>
+</body>
+</html>
